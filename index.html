@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WetShore Studios</title>
+  <meta name="description" content="WetShore Studios — a small game studio building Coastline, an open world where everything can be destroyed.">
+  <link rel="icon" href="assets/wetshore-logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <div id="site-nav"></div>
+
+  <main>
+    <section class="hero" aria-roledescription="carousel">
+      <svg class="hero-art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#3B1F5E"/><stop offset=".45" stop-color="#8A4A9C"/>
+            <stop offset=".72" stop-color="#E7859A"/><stop offset="1" stop-color="#F7B98B"/>
+          </linearGradient>
+          <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#FFE0A6"/><stop offset="1" stop-color="#FF9A6B"/>
+          </linearGradient>
+          <mask id="sunCut">
+            <rect width="1600" height="900" fill="#fff"/>
+            <rect y="560" width="1600" height="8" fill="#000"/><rect y="590" width="1600" height="12" fill="#000"/>
+            <rect y="625" width="1600" height="16" fill="#000"/>
+          </mask>
+          <g id="palm">
+            <path d="M0 0 C6 -90 14 -160 32 -240 L44 -236 C27 -158 20 -90 18 0 Z"/>
+            <path d="M38 -238 C0 -268 -50 -266 -95 -236 C-45 -250 -5 -246 36 -224 Z
+                     M38 -238 C66 -280 118 -292 168 -272 C118 -276 80 -258 44 -222 Z
+                     M38 -238 C26 -286 -4 -316 -52 -326 C-6 -304 20 -278 30 -226 Z
+                     M38 -238 C90 -242 128 -212 150 -168 C120 -204 84 -222 36 -222 Z
+                     M38 -238 C-10 -230 -44 -200 -62 -156 C-30 -194 0 -214 42 -220 Z"/>
+          </g>
+        </defs>
+        <rect width="1600" height="900" fill="url(#sky)"/>
+        <circle cx="1080" cy="560" r="210" fill="url(#sun)" mask="url(#sunCut)" opacity=".9"/>
+        <g fill="#5A3A78" opacity=".55">
+          <rect x="560" y="470" width="60" height="260"/><rect x="630" y="400" width="80" height="330"/><rect x="720" y="500" width="50" height="230"/>
+          <rect x="1180" y="430" width="70" height="300"/><rect x="1260" y="360" width="90" height="370"/><rect x="1360" y="480" width="60" height="250"/>
+          <rect x="1430" y="420" width="80" height="310"/>
+        </g>
+        <g fill="#4A2D66" opacity=".8">
+          <rect x="0" y="520" width="90" height="300"/><rect x="100" y="440" width="70" height="380"/><rect x="180" y="560" width="110" height="260"/>
+          <rect x="820" y="540" width="120" height="280"/><rect x="950" y="600" width="90" height="220"/>
+          <rect y="700" width="1600" height="200"/>
+        </g>
+        <g fill="#3A2152" opacity=".85">
+          <use href="#palm" transform="translate(250 900) scale(1.9)"/>
+          <use href="#palm" transform="translate(380 900) scale(1.3) rotate(4)"/>
+          <use href="#palm" transform="translate(1440 900) scale(1.7) rotate(-3)"/>
+          <use href="#palm" transform="translate(1540 900) scale(1.2)"/>
+        </g>
+      </svg>
+      <div class="hero-tint"></div>
+
+      <div class="slides">
+        <article class="slide is-active" aria-label="1 of 3">
+          <div class="slide-inner">
+            <img class="slide-mark" src="assets/coastline-logo.png" alt="Coastline">
+            <div class="slide-copy">
+              <p class="eyebrow">Coastline</p>
+              <h1>Wishlist Now</h1>
+              <a class="pill" href="coastline.html">Explore Coastline</a>
+            </div>
+          </div>
+        </article>
+        <article class="slide" aria-label="2 of 3">
+          <div class="slide-inner">
+            <img class="slide-mark" src="assets/coastline-logo.png" alt="Coastline">
+            <div class="slide-copy">
+              <p class="eyebrow">Coastline · Reveal</p>
+              <h1>Watch the Intro</h1>
+              <a class="pill" href="videos.html">Watch Now</a>
+            </div>
+          </div>
+        </article>
+        <article class="slide" aria-label="3 of 3">
+          <div class="slide-inner">
+            <svg class="slide-mark ws" viewBox="380 430 490 410" fill="currentColor" aria-label="WetShore Studios">
+              <path d="M421 440H518V574L611 440H691V573L771 440H860L704 701Q655 695 609 678V570L536 683Q480 717 421 727Z"/>
+              <path d="M380 748C440 760 490 735 530 713C570 695 615 697 657 728C620 725 590 740 555 765C510 797 475 805 440 795C410 785 390 765 380 748Z"/>
+              <path d="M498 826C540 820 575 795 610 772C650 745 690 748 740 780C760 795 775 803 790 806C760 812 730 808 690 800C640 793 600 805 560 820C535 830 515 830 498 826Z"/>
+              <path d="M793 648L810 696H864L822 728L838 778L793 749L750 778L765 728L723 697H776Z"/>
+            </svg>
+            <div class="slide-copy">
+              <p class="eyebrow">WetShore Studios</p>
+              <h1>Join the Community</h1>
+              <a class="pill" data-discord>Join Discord</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="icon-btn pause" id="pauseBtn" aria-label="Pause slideshow">
+          <svg viewBox="0 0 12 12" class="i-pause"><rect x="2" y="1.5" width="2.6" height="9" rx=".6"/><rect x="7.4" y="1.5" width="2.6" height="9" rx=".6"/></svg>
+          <svg viewBox="0 0 12 12" class="i-play"><path d="M3 1.5l7.5 4.5L3 10.5z"/></svg>
+        </button>
+        <div class="dots" id="dots"></div>
+      </div>
+    </section>
+
+    <section class="feature-row container">
+      <a class="card big reveal" href="coastline.html">
+        <video src="assets/coastline-intro.mp4" autoplay muted loop playsinline preload="metadata"></video>
+        <div class="card-shade"></div>
+        <div class="card-body">
+          <p class="eyebrow">Coastline</p>
+          <h2>An open world where everything breaks</h2>
+        </div>
+      </a>
+      <a class="card small reveal" href="coastline.html">
+        <div class="thumb"><img src="assets/coastline-logo.png" alt=""></div>
+        <div class="card-body">
+          <p class="eyebrow">Coastline</p>
+          <h3>Wishlist Coastline and follow development</h3>
+        </div>
+      </a>
+    </section>
+
+    <section class="section container">
+      <div class="section-head"><h2>Newswire</h2><a class="more" href="newswire.html">View all</a></div>
+      <div class="news-grid" data-render="news" data-limit="4"></div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head"><h2>Latest Video</h2><a class="more" href="videos.html">All videos</a></div>
+      <div data-render="videos" data-limit="1"></div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head"><h2>Games</h2><a class="more" href="games.html">All games</a></div>
+      <div class="games-grid" data-render="games"></div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner reveal">
+        <div>
+          <p class="eyebrow">Community</p>
+          <h2>Be part of Coastline</h2>
+          <p>Join the WetShore Studios Discord for dev updates, playtests, clips and events.</p>
+        </div>
+        <a class="pill big" data-discord>Join the Discord</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coastline — WetShore Studios</title>
+  <meta name="description" content="Coastline — a realistic open world on the coast where almost everything can be destroyed.">
+  <link rel="icon" href="assets/wetshore-logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- TEMPLATE: copy this file for each new game, change the text/assets, and set data-page to the game's id in script.js -->
+<body data-page="coastline">
+  <div id="site-nav"></div>
+  <main>
+    <section class="game-hero sunset">
+      <div class="container game-hero-inner">
+        <p class="eyebrow">WetShore Studios presents</p>
+        <img src="assets/coastline-logo.png" alt="Coastline">
+        <p>A realistic open world on the coast where almost everything can be destroyed. Drive, explore, and bring it all down.</p>
+        <div class="btn-row">
+          <a class="pill" href="#trailer">Watch the Intro</a>
+          <a class="pill ghost" data-discord>Join the Discord</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <dl class="facts reveal">
+        <div><dt>Status</dt><dd>In development</dd></div>
+        <div><dt>Platform</dt><dd>PC</dd></div>
+        <div><dt>Genre</dt><dd>Open world · Destruction</dd></div>
+        <div><dt>Developer</dt><dd>WetShore Studios</dd></div>
+      </dl>
+    </section>
+
+    <section class="section container">
+      <div class="section-head"><h2>About the game</h2></div>
+      <div class="features">
+        <article class="feature reveal">
+          <span class="num">01</span>
+          <h3>Destroy almost anything</h3>
+          <p>Walls, towers and whole buildings can come down. Destruction is at the core of Coastline, not a side feature.</p>
+        </article>
+        <article class="feature reveal">
+          <span class="num">02</span>
+          <h3>An open world on the coast</h3>
+          <p>A large coastal city and its shoreline to explore freely, from the streets to the beach.</p>
+        </article>
+        <article class="feature reveal">
+          <span class="num">03</span>
+          <h3>Built to feel real</h3>
+          <p>A realistic look and feel, so every collapse and every crash lands with weight.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="trailer">
+      <div class="section-head"><h2>Videos</h2><a class="more" href="videos.html">All videos</a></div>
+      <div class="video-grid" data-render="videos" data-game="coastline"></div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head"><h2>Screenshots</h2></div>
+      <div class="shots reveal">
+        <div class="shot big">SCREENSHOT</div><div class="shot">SCREENSHOT</div><div class="shot">SCREENSHOT</div>
+        <div class="shot">SCREENSHOT</div><div class="shot">SCREENSHOT</div>
+      </div>
+      <p class="shots-note">Screenshots coming soon.</p>
+    </section>
+
+    <section class="section container">
+      <div class="section-head"><h2>Coastline News</h2><a class="more" href="newswire.html">View all</a></div>
+      <div class="news-grid" data-render="news" data-game="coastline"></div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner reveal">
+        <div>
+          <p class="eyebrow">Coastline</p>
+          <h2>Help us build Coastline</h2>
+          <p>Join the Discord to follow development, report bugs and get into playtests.</p>
+        </div>
+        <a class="pill big" data-discord>Join the Discord</a>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
